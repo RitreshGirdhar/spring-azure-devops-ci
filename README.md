@@ -1,9 +1,18 @@
 # SpringBoot Docker based microservices - Azure Devops integration
 
-Sample Spring boot Microservice - Azure CI/CD integration. Azure pipeline will build docker image and push to azure container registry. For each commit - it will build/test/push. This is an example of Continuous integration
+Sample Spring boot Microservice - Azure Devops integration. Azure pipeline will build docker image and push to azure container registry. For each commit - it will build/test/push. This is an example of Continuous integration
 
 ----
 
+Using tools like Jenkins does not means you follow CI/CD. 
+_Continuous Integration (CI) is a development practice where developers integrate code into a shared repository frequently, preferably several times a day. Each integration can then be verified by an automated build and automated tests._**
+
+Mostly we follow below flow for CI
+![Build Pipeline](assets/Build-funnel-or-pipeline.png)
+*Above image copied from "Release It! Design and Deploy by Michael Nygard"*
+
+---- 
+----
 ### Create Azure Devops Projects
 ![Create Azure Devops Project](assets/create-project.png)
 ![Create Azure Devops Project](assets/create-project2.png)
